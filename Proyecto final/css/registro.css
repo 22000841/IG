@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa; /* Fondo claro para el body */
+}
+
+.form-container {
+    margin-top: 50px; /* Espacio superior */
+}
+
+.card {
+    border: none; /* Sin borde en la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para la tarjeta */
+}
+
+.card-body {
+    padding: 2rem; /* Espaciado interno */
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Fuente del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #343a40; /* Color del texto */
+}
+
+input {
+    border-radius: 5px; /* Bordes redondeados en inputs */
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra al enfocar el input */
+    border-color: #007bff; /* Color del borde al enfocar */
+}
+
+.btn {
+    border-radius: 5px; /* Bordes redondeados en botón */
+    padding: 10px; /* Espaciado interno del botón */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
